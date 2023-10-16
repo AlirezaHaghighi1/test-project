@@ -67,6 +67,16 @@ h2 {
     .header .button i {
         color: #ffd100;
     }
+.button:hover {
+    background-color: #ffd100;
+    color: #333533;
+}
+.button:hover i {
+    color: #333533;
+}
+.button i {
+    margin-right: 6px;
+}
 .lang {
     color: #f5f5f5;
     border: 1px solid #f5f5f5;
@@ -75,4 +85,11 @@ h2 {
     font-size: 12px;
     opacity: 0.7;
     align-self: flex-start;
+}
+.lang i {
+    color: #f5f5f5;
+    margin-right: 4px;
+}
+.lang:hover {
+    opacity: 1;
 }
