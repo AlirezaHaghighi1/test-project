@@ -16,6 +16,9 @@
     url("/assets/fonts/ttf/Poppins-Regular.ttf") format("ttf");
   font-weight: 500;
 }
+
+/* global */
+
 * {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
@@ -35,10 +38,19 @@ h2 {
   font-weight: 400;
 }
 
+h5 {
+  margin-bottom: 5px;
+  color: #a0a0a0;
+  font-weight: 500;
+  font-size: 18px;
+}
+
 ul {
   list-style: none;
   padding: 0;
 }
+
+/* container */
 
 .header,
 .contaner {
@@ -46,6 +58,8 @@ ul {
   padding: 45px 0;
   justify-content: center;
 }
+
+/* header */
 
 .header {
   background-color: #333533;
@@ -120,6 +134,8 @@ ul {
   opacity: 1;
 }
 
+/* nav */
+
 nav {
   width: 250px;
   font-size: 22px;
@@ -161,6 +177,33 @@ nav ul li:not(:last-child)::after {
   height: 48px;
 }
 
+/* section */
+
 .section {
   width: 700px;
+  border-left: 1px solid #333533;
+  padding: 50px;
+}
+
+.contact {
+  display: flex;
+}
+
+.contact div {
+  width: 50%;
+}
+
+.contact p {
+  margin-top: 0;
+}
+
+.contact p i {
+  margin-left: 10px;
+  font-size: 16px;
+  color: #a0a0a0;
+  cursor: pointer;
+}
+
+.contact p i:hover {
+  color: #333533;
 }
