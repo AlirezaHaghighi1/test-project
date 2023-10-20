@@ -207,3 +207,70 @@ nav ul li:not(:last-child)::after {
 .contact p i:hover {
   color: #333533;
 }
+
+.socials li {
+  display: inline-block;
+  margin-right: 24px;
+}
+
+.socials li span {
+  display: inline-block;
+  height: 56px;
+  width: 56px;
+}
+
+.socials li span.linkedin {
+  background-image: url("/assets/images/icon/social/linkedin.png");
+}
+
+.socials li:hover span.linkedin {
+  background-image: url("/assets/images/icon/social/linkedin-hover.png");
+}
+
+.socials li span.twitter {
+  background-image: url("/assets/images/icon/social/twitter.png");
+}
+
+.socials li:hover span.twitter {
+  background-image: url("/assets/images/icon/social/twitter-hover.png");
+}
+
+.socials li span.instagram {
+  background-image: url("/assets/images/icon/social/instagram.png");
+}
+
+.socials li:hover span.instagram {
+  background-image: url("/assets/images/icon/social/instagram-hover.png");
+}
+
+.socials li span.stackoverflow {
+  background-image: url("/assets/images/icon/social/stackoverflow.png");
+}
+
+.socials li:hover span.stackoverflow {
+  background-image: url("/assets/images/icon/social/stackoverflow-hover.png");
+}
+
+.socials li span.github {
+  background-image: url("/assets/images/icon/social/github.png");
+}
+
+.socials li:hover span.github {
+  background-image: url("/assets/images/icon/social/github-hover.png");
+}
+
+.socials li span.whatsapp {
+  background-image: url("/assets/images/icon/social/whatsapp.png");
+}
+
+.socials li:hover span.whatsapp {
+  background-image: url("/assets/images/icon/social/whatsapp-hover.png");
+}
+
+.socials li span.telegram {
+  background-image: url("/assets/images/icon/social/telegram.png");
+}
+
+.socials li:hover span.telegram {
+  background-image: url("/assets/images/icon/social/telegram-hover.png");
+}
