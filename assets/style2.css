@@ -274,3 +274,34 @@ nav ul li:not(:last-child)::after {
 .socials li:hover span.telegram {
   background-image: url("/assets/images/icon/social/telegram-hover.png");
 }
+
+.skills li {
+  display: flex;
+  border: 1px solid #a0a0a0;
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px 24px;
+}
+
+.skills li img {
+  vertical-align: middle;
+}
+
+.skills .title {
+  font-weight: 500;
+}
+
+.skills li i {
+  padding: 10px 12px;
+  border-left: 1px solid #a0a0a0;
+}
+
+.other-skills li {
+  border: 1px solid #a0a0a0;
+  border-radius: 24px;
+  display: inline-block;
+  padding: 4px 16px;
+  margin: 0 16px 18px 0;
+}
