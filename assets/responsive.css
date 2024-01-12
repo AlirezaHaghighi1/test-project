@@ -1,4 +1,10 @@
 @media only screen and (max-width: 992px) {
+  body,
+  h5 {
+    background-color: #fafafa;
+    font-size: 16px;
+  }
+
   nav {
     display: none;
   }
@@ -66,5 +72,33 @@
   .section section:last-child {
     width: auto;
     border: none;
+    padding: 0 20px;
+  }
+
+  .section section {
+    border-top: 1px solid #d9d9d9;
+    padding: 60px 0;
+  }
+  .section section h4 {
+    margin-top: 0;
+    font-size: 20px;
+  }
+
+  .contact {
+    flex-wrap: wrap;
+  }
+
+  .contact div {
+    width: 100%;
+  }
+
+  .social-icon {
+    padding-left: 0;
+  }
+
+  .social-icon li {
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 4px;
   }
 }
