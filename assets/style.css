@@ -34,15 +34,32 @@ body {
   color: #333533;
 }
 
+hr {
+  display: none;
+}
+
+p {
+  line-height: 1.7;
+  letter-spacing: 0.9px;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  display: inline-block;
+}
+
 h2 {
   font-weight: 400;
 }
 
 h5 {
-  margin-bottom: 5px;
   color: #a0a0a0;
-  font-weight: 500;
   font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
 }
 
 h6 {
@@ -58,9 +75,11 @@ ul {
 
 .header,
 .contaner {
-  display: flex;
   padding: 45px 0;
   justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 /* header */
@@ -140,6 +159,15 @@ ul {
 
 /* .container nav */
 
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.mobile-nav {
+  display: none;
+}
+
 .container nav {
   width: 250px;
   font-size: 22px;
@@ -203,10 +231,15 @@ ul {
 
 .contact {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .contact div {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .contact p {
@@ -402,36 +435,4 @@ ul {
 
 .project .buttons a i {
   margin-right: 5px;
-}
-
-.mobile-nav {
-  display: block;
-  background-color: #333533;
-  color: #f5f5f5;
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.mobile-nav ul {
-  display: flex;
-  justify-content: space-between;
-  margin: 0;
-}
-
-.mobile-nav ul li {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  text-align: center;
-  flex: 1;
-}
-
-.mobile-nav ul li i {
-  margin-right: 5px;
-}
-
-.mobile-nav ul li.active {
-  color: #ffd100;
-  border-bottom: 4px solid #ffd100;
 }
