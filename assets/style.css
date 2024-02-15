@@ -333,6 +333,11 @@ nav ul li:not(:last-child)::after {
   font-size: 14px;
 }
 
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .tech {
   display: flex;
   justify-content: space-between;
@@ -361,6 +366,10 @@ nav ul li:not(:last-child)::after {
   padding: 4px 8px;
   border: 1px solid transparent;
   text-align: center;
+}
+
+.project:not(:last-child) {
+  margin-right: 20px;
 }
 
 .project .buttons a:last-child,
