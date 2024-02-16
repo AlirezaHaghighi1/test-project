@@ -5,18 +5,22 @@
     font-size: 16px;
   }
 
+  h4 {
+    font-size: 20px;
+  }
+
   nav {
     display: none;
   }
 
-  .header {
-    height: auto;
+  .header,
+  .container {
+    padding: 0;
+    position: relative;
   }
 
-  .lang {
-    position: absolute;
-    top: 20px;
-    right: 20px;
+  .header {
+    height: auto;
   }
 
   .header img {
@@ -36,11 +40,6 @@
     text-align: center;
     margin-top: 150px;
     padding: 100px 20px 60px;
-  }
-
-  .header,
-  .container {
-    padding: 0;
   }
 
   .header .title h1 {
@@ -66,6 +65,17 @@
     display: inline-block;
     padding: 8px 0;
     background-color: #fafafa;
+  }
+
+  .button.lang {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+
+  .section {
+    padding-right: 20px;
+    padding-left: 20px;
   }
 
   .section,
@@ -105,6 +115,7 @@
   .project {
     width: 100%;
     margin-right: 0 !important;
+    margin-left: 0 !important;
   }
 
   .mobile-nav {
